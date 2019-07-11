@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    display: grid;
+    grid-template-areas: 'batatinha batatinha batatinha batatinha'
+                        'banana banana banana banana'
+                        'chuchu chuchu abobrinha abobrinha'
+                        'pizza pizza pizza pizza';
+                        grid-template-rows: 30vh 20vh 60vh 40vh;
+                        grid-gap: 15px;
+                        background-color: white;
+}
+
+header{
+    grid-area:batatinha;
+background-color: red;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+nav{
+    grid-area: banana;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+
+}
+section{
+    grid-area: chuchu;
+    background-color: black;
+
+}
+aside{
+    grid-area: abobrinha;
+    background-color: black;
+}
+footer{
+    grid-area: pizza;
+    background-color: w;
+}
+nav a {
+    color: white;
+    font-weight: bold;
+    background-color:black;
+    width: 50px;
+    height: 25p; 
+}
+header img{
+    width: 200px;
+    height: 170px;
+    border-radius: 100%;
+}
+
